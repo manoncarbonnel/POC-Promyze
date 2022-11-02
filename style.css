@@ -1,1 +1,11 @@
+/* Bad practises */
 
+.important-element {
+    color: #000 !important;
+}
+
+/* Good practises */
+
+.parent .child {
+    color: #000;
+}
